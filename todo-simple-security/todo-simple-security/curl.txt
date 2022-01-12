@@ -1,0 +1,5 @@
+неавторизованный пользователь
+curl localhost:8080/api/toDos
+
+
+curl localhost:8080/api/toDos -u user:f59416ee-e6cd-4e32-bb06-019bb1acaad6
