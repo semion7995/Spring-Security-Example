@@ -13,7 +13,7 @@
 <div class="container">
     <div class="header clearfix">
         <nav>
-            <a href="#" id="logoutLink">Logout</a>
+            <a href="/login" id="logoutLink">Logout</a>
         </nav>
     </div>
 
@@ -27,7 +27,7 @@
     <input type="hidden" name="_csrf" value="{{_csrf.token}}}"/>
 </form>
 <script>
-    $(function () {
+    $(function(){
         $('#logoutLink').click(function () {
             $('#logout').submit();
         });
